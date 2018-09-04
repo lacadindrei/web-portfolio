@@ -5,55 +5,56 @@ body{
 	background-repeat: no-repeat;
 	font-family: 'Quicksand', sans-serif;
 	color: white;
+	padding: 0;
+	margin 0;
 }
 
+/*Global*/
 .container{
-	width:900px;
-	margin: 0 auto;
-	text-align:center;
-}
-.aboutMe{
-	position:absolute;
-	text-align:justify;
-	/**background: rgba(0,0,0,0.6);**/
-	width: 70%;
-	font-size: 18px;
-
+	width:80%;
+	margin: auto;
+	overflow: hidden;
 }
 
-#me {
-	width: 28%;
-	height: auto;
+/*Profile photo*/
+.container #me {
+	width: 140px;
 	border-radius: 50%;
 	border-style: solid;
 	border-width: 5px;
 	border-color: white;
 	margin-top: 50px;
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
 }
 
-.footer {
-   position:absolute;
-   bottom:0;
-   width:70%;
-   height:8px;   /* Height of the footer */
-}
-
-h1{
-	margin-left:0;
-	/*background-color: rgba(0,0,0,0.6);*/
+/*My name*/
+#name {
+	margin: 20px auto 0 auto;
+	text-align: center;
 	text-transform: uppercase;
-	letter-spacing: 3px;
-	font-family: 'Cinzel', serif;
-	font-size: 273%;
-	background: rgba(0,0,0,0.3)
-	width: 100%;
+	letter-spacing 4px;
+	font-family: 'Cinzel';
+	font-size: 210%;
 }
 
-h3{
+#work{
 	text-transform: uppercase;
 	letter-spacing: 5px;
-	padding-top: -50px;
-	line-height: 5;
-	font-size: 90%;
-	margin-top: -25;
+	font-size: 70%;
+	margin: 0 auto 0 auto;
+	text-align: center;
+	text-transform: uppercase;
 }
+
+/*For the footer*/
+.footer p{
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	padding: 1rem;
+	text-align: center;
+}
+
